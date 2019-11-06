@@ -1,6 +1,6 @@
 var pg = require("pg");
 var connectionString =
-  "postgres://musicxsoftware@musicxsoftware:mx12Access@musicxsoftware.postgres.database.azure.com:5432/userdatabase?ssl=true";
+  "postgres://username_password_stuff_here@musicxsoftware.postgres.database.azure.com:5432/userdatabase?ssl=true";
 
 var client = new pg.Client(connectionString);
 client.connect();
